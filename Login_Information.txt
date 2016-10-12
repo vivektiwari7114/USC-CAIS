@@ -1,0 +1,26 @@
+Login Credentials:
+CAIS:
+USERNAME: http://cais.usc.edu/webCAIS
+
+
+
+
+****************************************************************************************************************************************************************************************************
+
+
+Server information:
+Server is the same as “Teamcore Research Lab”. CAIS is created as the Virtual Host Website in the “Teamcore Server”
+
+
+Points of Contact:
+
+CAIS Head: Prof. Milind Tambe <tambe@usc.edu> and Prof. Eric Rice <ericr@usc.edu>
+Webmaster: Vivek Tiwari <jasani@usc.edu>
+
+
+
+
+
+
+
+
