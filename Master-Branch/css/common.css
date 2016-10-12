@@ -1,0 +1,31 @@
+/* BASIC PAGE NEEDS */
+body{display:block;}
+video, img{max-width:100%; height:auto;}
+h1#usclogo {
+	float: right;
+	width: 198px;
+	height: 60px;
+	margin: 0;
+}
+h1#usclogo a {
+	display: block;
+	width: 176px;
+	height: 54px;
+	padding:11px;
+	background-color:#900;
+	background:url(../images/usc-shield-name-white.png) 0 11px no-repeat;
+	text-indent: -9999px;
+}
+
+.navbar-default {
+    background-color: #900!important;
+    border-color: #030033;
+}
+
+.red-color{
+    background-color: red;
+}
+.margin-top-large{margin-top: 60px;}
+.margin-top-medium{margin-top: 40px;}
+.equal-margin {margin:6.25% 6.25% 6.25% 6.25%;}
+.text-style{font-family: 'Muli', sans-serif; font-size:16px;}
