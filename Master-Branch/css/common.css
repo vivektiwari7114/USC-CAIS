@@ -21,6 +21,7 @@ h1#usclogo a {
     background-color: #900!important;
     border-color: #030033;
 }
+.fontSizeM{font-size: 14px; color:white;}
 
 .red-color{
     background-color: red;
@@ -29,3 +30,17 @@ h1#usclogo a {
 .margin-top-medium{margin-top: 40px;}
 .equal-margin {margin:6.25% 6.25% 6.25% 6.25%;}
 .text-style{font-family: 'Muli', sans-serif; font-size:16px;}
+
+ul.topnav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+ul.topnav {
+    list-style-type: none;
+}
+ul.topnav li, ul.topnav li a {
+    display: inline-block;
+}
