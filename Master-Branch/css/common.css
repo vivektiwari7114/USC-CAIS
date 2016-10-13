@@ -4,6 +4,10 @@
 body{display:block;}
 video, img{max-width:100%; height:auto;}
 
+/* Common margins */
+.ml5{margin-left: 30px;}
+
+
 /* USC logo Requirements */
 h1#usclogo {float: right;width: 198px;height: 60px;margin: 0;}
 h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-color:#900;background:url(../images/usc-shield-name-white.png) 0 11px no-repeat;text-indent: -9999px;}
@@ -29,7 +33,7 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 
 /*Top Navigation Bar */
 .displayUL{list-style:none;position:absolute;}
-.innerList{display:inline-block; margin-top: 15px;margin-left: 15px;}
+.innerList{display:inline-block; margin-top: 15px;margin-left: 30px;}
 .listFontStyle{color:white;font-size: 1.3em;}
 
 
