@@ -37,6 +37,7 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 .properText{    text-align: justify;text-justify: inter-word;}
 .textLeft{text-align:left;}
 .borderToSeminar { border-style: solid;border-width: 1px;border-color: black;}
+.marginAllSide{margin:10px 10px 10px 10px;}
 
 /*Top Navigation Bar */
 .displayUL{list-style:none;position:absolute;}
