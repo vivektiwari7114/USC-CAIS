@@ -12,6 +12,8 @@ table, th, td {border: 1px solid black;}
 td, th {padding: 6px!important; vertical-align: top;}
 .footerDefaultMargin{margin-bottom: 60px;}
 .defaultMargin{margin-bottom: 20px;}
+.equal-margin {margin:6.25% 6.25% 6.25% 6.25%;}
+.text-style{font-family: 'Muli', sans-serif; font-size:16px;}
 
 /* USC logo Requirements */
 h1#usclogo {float: right;width: 198px;height: 60px;margin: 0;}
@@ -20,8 +22,12 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 .fontSizeM{font-size: 14px; color:white;}
 .red-color{ background-color: red;}
 
-.equal-margin {margin:6.25% 6.25% 6.25% 6.25%;}
-.text-style{font-family: 'Muli', sans-serif; font-size:16px;}
+/*Top Navigation Bar */
+.displayUL{list-style:none;position:absolute;}
+.innerList{display:inline-block; margin-top: 15px;margin-left: 30px;}
+.listFontStyle{color:white;font-size: 1.3em;}
+.dropdown-menu>li>a{background-color: #900;padding: 13px 4px!important;color:white!important;}
+
 
 /* Lecture Series */
 .title-heading{font-size:1.6em;}
@@ -39,9 +45,8 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 .borderToSeminar { border-style: solid;border-width: 1px;border-color: black;}
 .marginAllSide{margin:10px 10px 10px 10px;}
 
-/*Top Navigation Bar */
-.displayUL{list-style:none;position:absolute;}
-.innerList{display:inline-block; margin-top: 15px;margin-left: 30px;}
-.listFontStyle{color:white;font-size: 1.3em;}
+
+/* Footer Text */
+.footerText{text-align: center; font-size: 0.7em;}
 
 
