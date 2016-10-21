@@ -27,9 +27,6 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 .innerList{display:inline-block; margin-top: 15px;margin-left: 30px;}
 .listFontStyle{color:white;font-size: 1.3em;}
 .dropdown-menu>li>a{background-color: #900;padding: 13px 4px!important;color:white!important;}
-a:active, a:hover{ outline :0!important;}
-.dropdown-menu{  padding: 0px 0!important;margin: 6px 0 0!important;}
-.dropdown-menu:hover{background-color: #900!important;}
 
 
 /* Lecture Series */
