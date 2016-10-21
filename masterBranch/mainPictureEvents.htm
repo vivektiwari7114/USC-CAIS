@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CAIS</title>
+<!-- Latest compiled and minified CSS -->
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/common.css" >
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+    
+    
+</head>
+<body> 
+    <div class="container-fluid footerDefaultMargin">
+        <div class="row">
+           
+            <nav class="navbar navbar-default navbar-static-top red-color">
+                <div class="col-8-md col-8-xs  ml5">
+                    <ul class ="displayUL">
+                        <a href="HomePage.htm"> <li class="innerList listFontStyle"> Home</li></a>
+                        
+                    </ul>
+                  
+                  
+                    </div>
+                    
+                    
+                  <div class="col-4-md col-4-xs">
+                     <h1 id="usclogo"><a href="http://www.usc.edu/">University of Southern California</a></h1>
+               </div>
+        </nav>
+        </div>
+          <!-- Display Modal -->
+        
+         <div class="row margin-top-small ">
+             <div class="col-md-2 "></div>
+              <div class="col-md-8 col-xs-12">
+                  <h2 class="playFair leftMargin">Launch Event</h2>
+             </div>
+             <div class="col-md-2 "></div>
+        </div>
+        
+    
+       <div class="row  margin-top-small">
+             <div class="col-md-2 "></div>
+           
+            <div class="col-md-8 col-xs-12">
+                <div class="col-md-12 col-xs-12 "> 
+                      <img class="mySlides" src="images/launchEvent/f1-img01.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img02.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img03.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img04.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img05.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img06.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img07.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img08.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img09.jpg" style="width:100%">
+                      <img class="mySlides" src="images/launchEvent/f1-img10.jpg" style="width:100%">
+                      <a class=" styleNavButton displayLeft" onclick="plusDivs(-1)">&#10094;</a>
+                      <a class=" styleNavButton displayRight right" onclick="plusDivs(1)">&#10095;</a>
+                    
+                </div>
+                
+           </div>
+           
+             <div class="col-md-2 "></div>
+        
+        </div>
+       
+        
+     
+        
+        
+        
+        
+        
+        
+      
+    <div class="footer margin-top-large">
+       
+        <div class="footerText">©2016 Center for Artificial Intelligence in Society (CAIS), University of Southern California <a href="mailto:vivektiw@usc.edu">Contact webmaster (Vivek Tiwari)</a></div>
+    </div>    
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }
+</script>
+    
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
