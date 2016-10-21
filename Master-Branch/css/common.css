@@ -20,11 +20,16 @@ td, th {padding: 6px!important; vertical-align: top;}
 .text-style{font-family: 'Muli', sans-serif; font-size:16px;}
 .left{float:left;}
 .right{float:right;}
+a:focus, a:hover {color: #900;!important;text-decoration: none!important;}
+ul li{ display: inline !important;}
+
+
 
 /* USC logo Requirements */
 h1#usclogo {float: right;width: 198px;height: 60px;margin: 0;}
 h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-color:#900;background:url(../images/usc-shield-name-white.png) 0 11px no-repeat;text-indent: -9999px;}
-.navbar-default {background-color: #900!important; border-color: #030033;}
+.navbar-default {background-color: #900!important; border-color: #030033;position:relative;
+}
 .fontSizeM{font-size: 14px; color:white;}
 .red-color{ background-color: red;}
 
@@ -33,6 +38,7 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 .innerList{display:inline-block; margin-top: 15px;margin-left: 30px;}
 .listFontStyle{color:white;font-size: 1.3em;}
 .dropdown-menu>li>a{background-color: #900;padding: 13px 4px!important;color:white!important;}
+.dropdown-menu:hover {background-color: #900;}
 
 
 /* Lecture Series */
