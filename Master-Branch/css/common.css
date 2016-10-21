@@ -20,16 +20,14 @@ td, th {padding: 6px!important; vertical-align: top;}
 .text-style{font-family: 'Muli', sans-serif; font-size:16px;}
 .left{float:left;}
 .right{float:right;}
-a:focus, a:hover {color: #900;!important;text-decoration: none!important;}
-ul li{ display: inline !important;}
+a:focus, a:hover {color: white!important;text-decoration: none!important;}
 
 
 
 /* USC logo Requirements */
 h1#usclogo {float: right;width: 198px;height: 60px;margin: 0;}
 h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-color:#900;background:url(../images/usc-shield-name-white.png) 0 11px no-repeat;text-indent: -9999px;}
-.navbar-default {background-color: #900!important; border-color: #030033;position:relative;
-}
+.navbar-default {background-color: #900!important; border-color: #030033;}
 .fontSizeM{font-size: 14px; color:white;}
 .red-color{ background-color: red;}
 
