@@ -4,16 +4,22 @@
 body{display:block;}
 video, img{max-width:100%; height:auto;}
 
+/* External Fonts */
+.playFair{font-family: 'Cabin Condensed', sans-serif;}
+
 /* Common margins */
 .ml5{margin-left: 30px;}
 .margin-top-large{margin-top: 60px;}
 .margin-top-medium{margin-top: 40px;}
+.margin-top-small{margin-top: 20px;}
 table, th, td {border: 1px solid black;}
 td, th {padding: 6px!important; vertical-align: top;}
 .footerDefaultMargin{margin-bottom: 60px;}
 .defaultMargin{margin-bottom: 20px;}
 .equal-margin {margin:6.25% 6.25% 6.25% 6.25%;}
 .text-style{font-family: 'Muli', sans-serif; font-size:16px;}
+.left{float:left;}
+.right{float:right;}
 
 /* USC logo Requirements */
 h1#usclogo {float: right;width: 198px;height: 60px;margin: 0;}
@@ -44,6 +50,15 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 .textLeft{text-align:left;}
 .borderToSeminar { border-style: solid;border-width: 1px;border-color: black;}
 .marginAllSide{margin:10px 10px 10px 10px;}
+
+
+/*Main Picture Event */
+.displayLeft{ position: absolute!important;top: 50%;left: 0%;transform: translate(0%,-50%);}
+.displayRight{  position: absolute!important;top: 50%;right: 0%;transform: translate(0%,-50%);}
+.styleNavButton{ width: 40px;height: 40px;line-height: 40px;display: inline-block;text-align: center;
+    color: #fff;background-color: #000;position: relative;overflow: hidden;z-index: 1;padding: 0;border-radius: 50%;
+    cursor: pointer;font-size: 24px;}
+.leftMargin{margin-left:1%;}
 
 
 /* Footer Text */
