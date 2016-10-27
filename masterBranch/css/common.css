@@ -64,8 +64,11 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
     cursor: pointer;font-size: 24px;}
 .leftMargin{margin-left:1%;}
 
+/*News Page*/
+.newsItemList{font-size: 18px;}
+
 
 /* Footer Text */
-.footerText{text-align: center; font-size: 0.7em;}
+.footerText{ display: none!important; text-align: center; font-size: 0.7em;}
 
 
