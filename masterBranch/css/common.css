@@ -67,6 +67,9 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 /*News Page*/
 .newsItemList{font-size: 18px;}
 
+/*PeoplePage */
+.name-margin{margin: -1.75% 8.25% 7.25% 16.25%;}
+
 
 /* Footer Text */
 .footerText{ display: none!important; text-align: center; font-size: 0.7em;}
