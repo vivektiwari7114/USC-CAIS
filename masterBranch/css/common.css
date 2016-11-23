@@ -39,6 +39,12 @@ h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-c
 .dropdown-menu:hover {background-color: #900;}
 
 
+
+/*HomePage*/
+.lineWidth{width:67%;}
+.insideContent{margin-top: 30px;font-size: medium;}
+
+
 /* Lecture Series */
 .title-heading{font-size:1.6em;}
 .content-size{font-size:1.0em;margin-bottom: 20px;}
